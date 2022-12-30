@@ -408,13 +408,14 @@ a:focus {
    About section              
 -----------------------------------------*/
 #about {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 #about .about-img {
-  background: url("../images/About.jpg") no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin: 0rem;
+  /* background: url("../images/About.jpg") no-repeat; */
+
+  /* width: 100%; */
+  margin-left: -1.5rem;
+  transform: translate(10%);
 }
 
 #about .about-thumb,

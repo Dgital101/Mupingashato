@@ -37,6 +37,21 @@ http://www.templatemo.com/tm-498-stimulus
 
     <!-- emailjs -->
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .imgbox {
+        display: grid;
+        height: 100%;
+      }
+      .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
     <!-- PRE LOADER -->
@@ -121,7 +136,7 @@ http://www.templatemo.com/tm-498-stimulus
 
     <!-- About Section -->
 
-    <section id="about" class="parallax-section">
+    <section id="about" class="parallax-section1">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12">
@@ -149,15 +164,14 @@ http://www.templatemo.com/tm-498-stimulus
                   recommendations for clients looking to make informed decisions
                   about their businesses and investments. I am highly motivated
                   and dedicated to staying up-to-date on the latest developments
-                  in economics and financial analysis.
-                  <!-- I am also proficient in a
+                  in economics and financial analysis. I am also proficient in a
                   range of software tools and programming languages, including
                   Excel, R, and Python, which I use to analyze data and develop
                   models to support my work. I am excited to continue my career
                   as an economist, financial analyst, and economic officer, and
                   I am always looking for new opportunities to apply my skills
                   and expertise to help organizations and individuals make
-                  informed decisions about their financial futures.  -->
+                  informed decisions about their financial futures.
                 </p>
               </div>
             </div>
@@ -218,7 +232,9 @@ http://www.templatemo.com/tm-498-stimulus
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <div class="background-image about-img"></div>
+            <div class="center-fit">
+              <img class="center-fit" src="../images/About.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>
